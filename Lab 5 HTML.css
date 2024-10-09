@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nadia Khan - Lab 5 Submission</title>
+  <script src="main.js"></script>
+</head>
+<body>
+    <body style="background-color: rgb(255, 248, 227) ;text-align: center;  font-family:'times new roman'; font-size: 12pt; margin:10pt"></body>
+  <header>
+    <h1 style="color:pink">Nadia Khan - Lab 5 Submission</h1>
+    <button id="nameButton">Enter your name</button>
+    <p id="displayName"></p>
+  </header>
+
+  <button onclick="getUserName()">Click to Enter Name</button>
+  <p id="output"></p>
+  
+  <img src="images/My Picture.png" style="width:100px;" id="myImage" onclick="enlargeImage()">
+
+
+  <nav>
+    <a href="https://www.torontomu.ca/calendar/2024-2025/courses/information-technology-management/ITM/780/" onmouseover="changeColorOnHover(this)" onmouseout="resetColor(this)">Page 1</a> |
+    <a href="https://www.torontomu.ca/calendar/2024-2025/courses/information-technology-management/ITM/100/" onmouseover="changeColorOnHover(this)" onmouseout="resetColor(this)">Page 2</a> |
+    <a href="https://www.torontomu.ca/calendar/2024-2025/courses/information-technology-management/ITM/102/" onmouseover="changeColorOnHover(this)" onmouseout="resetColor(this)">Page 3</a>
+  </nav>
+  
+</body>
+</html>
